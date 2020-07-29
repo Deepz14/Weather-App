@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('/icons/bg-weather.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.form-col{
+    width: 26rem;
+    padding: 0 20px;
+}
+.location{
+    color: white;
+    font-size: 20px;
+}
+.form-inp{
+    outline:0;
+    border: 0;
+    padding: 10px 5px;
+    background: rgba(63, 68, 77, 0.7);
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+.card{
+    background: transparent;
+    color: white;
+}
+.card-col{
+    margin-top: 25px;
+    width: 20rem;
+    height: 250px;
+    padding: 25px 15px;
+    color: white;
+    background: rgba(63, 68, 77, 0.5);
+    border-radius: 5%;
+}
+.weather-result{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
