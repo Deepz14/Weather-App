@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url('/icons/bg-weather.jpg');
+    background: url('https://res.cloudinary.com/deepzcloud/image/upload/v1598256829/bg-weather_yvdl4s.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
